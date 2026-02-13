@@ -1,0 +1,423 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+
+a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    font-size: 24px;
+    position: absolute;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/img/1_hero/JPG/hero_bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+.info {
+    display: flex;
+}
+
+.phone {
+    width: 24px;
+    height: 24px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #9F0908;
+    outline: 3px solid white;
+    outline-offset: 2px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.h1 {
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.hto-order {
+    font-family: "Economica", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    color: #9F0908;
+    text-align: center;
+    margin-block-start: 120px;
+    margin-block-end: 64px;
+
+}
+
+.how-to-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-hto {
+    width: 128px;
+}
+
+.Pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 120px;
+}
+
+#our-menu {
+    background-image: url(./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.logo-our-menu {
+    width: 352px;
+    height: 352px;
+}
+
+.ramen {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    max-width: 1280px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.ramen1 {
+    margin: 80px;
+}
+
+.ramen2 {
+    display: flex;
+    justify-content: left;
+    max-width: 1280px;
+    width: 100%;
+    margin-bottom: 56px;
+
+}
+
+th {
+    font-family: "Economica", sans-serif;
+    width: 16ch;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 56px;
+    font-weight: bold;
+    font-style: normal;
+    color: black;
+
+}
+
+td {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    color: #675E54;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Adress-logo {
+    color: black;
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.location-text {
+    margin: 8px;
+}
+
+.maps {
+    margin: 0px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 144px;
+    margin-top: 0px;
+}
+
+.footer_logo_desktop {
+    display: block;
+}
+
+.footer_logo_mobile {
+    display: none;
+}
+
+@media(max-width: 1280px) {
+
+    nav {
+        font-size: 20px;
+    }
+
+    .info2 {
+        display: none;
+    }
+
+    .h1 {
+        font-size: 72px;
+    }
+
+    .span_header {
+        font-size: 20px;
+    }
+
+    .h2_hto {
+        font-size: 64px;
+        margin-block-start: 96px;
+        margin-block-end: 48px;
+    }
+
+    .hto-order {
+        font-size: 32px;
+    }
+
+    .logo-hto {
+        width: 112px;
+        height: 112px;
+    }
+
+    .our-menu {
+        margin-top: 96px;
+
+    }
+
+    .h2_our_menu {
+        font-size: 64px;
+        margin-block-start: 96px;
+        margin-block-end: 48px;
+    }
+
+    th {
+        font-size: 32px;
+    }
+
+    td {
+        font-size: 24px;
+    }
+
+    .ramen2 {
+        margin-bottom: 32px;
+    }
+
+    .ramen {
+        margin-bottom: 32px;
+    }
+
+    #ramen2_2 {
+        margin-bottom: 96px;
+    }
+
+    .location-text {
+        font-size: 64px;
+        margin-block-start: 96px;
+        margin-block-end: 8px;
+    }
+
+    .location {
+        margin-top: 0px;
+    }
+
+    .Adress-logo {
+        font-size: 20px;
+        margin-bottom: 48px;
+    }
+
+}
+
+@media(max-width: 767px) {
+
+    nav {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .h1 {
+        font-size: 44px;
+    }
+
+    .span_header {
+        font-size: 16px;
+    }
+
+    .h2_hto {
+        font-size: 40px;
+        margin-block-start: 72px;
+        margin-block-end: 36px;
+    }
+
+    .hto-order {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .our-menu {
+        margin-top: 96px;
+    }
+
+    .h2_our_menu {
+        font-size: 40px;
+        margin-block-start: 72px;
+        margin-block-end: 24px;
+    }
+
+    .ramen2 {
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    .ramen {
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    .ramen1 {
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    #ramen1 {
+        margin-top: 8px;
+    }
+
+    .logo-our-menu {
+        margin: 16px;
+    }
+
+    #ramen2_2 {
+        margin-bottom: 72px;
+    }
+
+    .location-text {
+        font-size: 40px;
+        margin-block-start: 72px;
+        margin-block-end: 8px;
+    }
+
+    .location {
+        margin-top: 0px;
+    }
+
+    .Adress-logo {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        height: 86px;
+    }
+
+    .footer_logo_desktop {
+        display: none;
+
+    }
+
+    .footer_logo_mobile {
+        width: 40px;
+        height: 40px;
+        display: block;
+
+    }
+
+    .link_logo {
+        width: 32px;
+        height: 32px;
+    }
+}
