@@ -322,8 +322,13 @@ td {
         height: 40px;
     }
 
+    a {
+        margin: 3px;
+    }
+    
     .h1 {
         font-size: 44px;
+        margin: 16px;
     }
 
     .span_header {
@@ -334,6 +339,7 @@ td {
         font-size: 40px;
         margin-block-start: 72px;
         margin-block-end: 36px;
+        margin: 16px;
     }
 
     .hto-order {
@@ -379,6 +385,8 @@ td {
 
     .logo-our-menu {
         margin: 16px;
+        width: 264px;
+        height: 264px;
     }
 
     #ramen2_2 {
